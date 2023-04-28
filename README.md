@@ -4,7 +4,7 @@ This repository contains a collection of Python projects that use SQL or mySQL f
 
 ## Projects
 
-- **money_banks:** 
+- **money_banks:** This is a Python script that calculates the total amount of money earned by clients in a bank, taking into account their earnings percentage and returns.
 
 - **SQL_Helper:** This is a simple Python script that demonstrates how to connect to a MySQL database and retrieve data from a specific column of a specified table.
 
