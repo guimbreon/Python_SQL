@@ -5,9 +5,9 @@ This is a simple Python script that demonstrates how to connect to a MySQL datab
 ## Requirements
 
 This script requires Python 3 and the `mysql-connector-python` package to be installed. You can install it via pip using the following command:
-	
-	- Python 3.X
-	- pip install mysql-connector-python
+
+- Python 3.X
+- pip install mysql-connector-python
 
 ## Configuration
 
