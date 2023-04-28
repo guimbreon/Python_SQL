@@ -25,5 +25,5 @@ Contributions are welcome! If you have a Python project that uses SQL or mySQL a
 
 ## License
 
-This repository is licensed under the GNU License. See the (LICENSE)[LICENSE] file for more information.
+This repository is licensed under the GNU License. See the [LICENSE](LICENSE) file for more information.
 
