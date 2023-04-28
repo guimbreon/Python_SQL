@@ -1,31 +1,33 @@
+# Bank Total Calculator
 
-To run the main program you have to use: Python and mysql.connector
+This is a Python script that calculates the total amount of money earned by clients in a bank, taking into account their earnings percentage and returns.
 
-Inside the sql databases u should have 3 tables with some collums inside a database which are:
+## Requirements
 
-people:
+- Python 3.x
+- mysql-connector-python
 
-    ->id
-    ->money - amount of money that id(person) has.
+## Installation
 
-earnings:
+1. Clone the repository.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Set up a MySQL database with the required schema.
+4. Update the `mydb` variable in the code with your MySQL database credentials.
+5. Run the script using `python bank_total_calculator.py`.
 
-    ->id
-    ->perc - percentage of what of the total amount of money is invested in that stock.
-    ->returns - the return of the stock.
+## Usage
 
-money:
+1. The script connects to a MySQL database and retrieves data from the `people`, `earnings`, and `money` tables.
+2. The script calculates the total amount of money earned by clients by multiplying their earnings percentage and returns with their respective money values and adding them up.
+3. The script then compares the calculated total with the current total stored in the `money` table.
+4. If the totals match, the script displays a message saying that the values haven't changed.
+5. If the totals don't match, the script updates the `new` and `old` columns in the `money` table with the calculated and previous total values, respectively.
 
-    ->id
-    ->old - the amount before you ran the program.
-    ->new - the amount after you ran the program.
+## Contributing
 
-This directory has many paths:
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-If u dont have any database created i have some programs to make your job easier:
+## License
 
-random tables:
-
-	->makes the main program work
-
+This repository is licensed under the GNU License. See the `LICENSE` file for more information.
 

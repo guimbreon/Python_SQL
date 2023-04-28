@@ -4,11 +4,9 @@ This repository contains a collection of Python projects that use SQL or mySQL f
 
 ## Projects
 
-- **Project 1:** A web scraping tool that retrieves data from a website and stores it in a mySQL database. The script is designed to run periodically to keep the database up-to-date.
+- **money_banks:** 
 
-- **Project 2:** A command-line interface (CLI) program that allows users to add, remove, and update records in a mySQL database. The program uses Python's built-in SQLite module to interact with the database.
-
-- **Project 3:** An e-commerce platform that uses a mySQL database to store product information, order history, and user data. The platform is built using Flask and allows users to browse products, add them to a shopping cart, and complete the checkout process.
+- **SQL_Helper:** This is a simple Python script that demonstrates how to connect to a MySQL database and retrieve data from a specific column of a specified table.
 
 ## Getting Started
 
@@ -27,5 +25,5 @@ Contributions are welcome! If you have a Python project that uses SQL or mySQL a
 
 ## License
 
-This repository is licensed under the MIT License. See the `LICENSE` file for more information.
+This repository is licensed under the GNU License. See the `LICENSE` file for more information.
 

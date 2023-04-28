@@ -1,11 +1,41 @@
-﻿Using:
-Python3 and mysql.connector
+﻿# MySQL Python Connector
+
+This is a simple Python script that demonstrates how to connect to a MySQL database and retrieve data from a specific column of a specified table.
+
+## Requirements
+
+This script requires Python 3 and the `mysql-connector-python` package to be installed. You can install it via pip using the following command:
+	
+	- Python 3.X
+	- pip install mysql-connector-python
+
+## Configuration
+
+Before running the script, you will need to modify the following variables in the code to match your MySQL database credentials:
+
+	host = "localhost"
+	user = "your_user"
+	password = "password"
+	database = "name"
 
 
-Are you new to SQL? I have EXACTLY what you need!
+Replace `your_user`, `password`, and `name` with your own MySQL database credentials.
 
-SQL_helper.py makes it easy to acess any database!
+## Usage
 
-U will only need to know the database name, your username and the password!
+1. Clone this repository to your local machine.
+2. Navigate to the cloned repository folder and run the script using the following command:
 
-It will give you all the information u can acess!
+	python3 mysql_connector.py
+
+3. Follow the prompts to select the table and column you want to retrieve data from.
+4. The script will output the data from the selected column in the specified table.
+
+## Contributing
+
+Contributions to this repository are welcome. If you have suggestions or improvements to make, please fork this repository and submit a pull request with your changes.
+
+## License
+
+This repository is licensed under the GNU License. See the `LICENSE` file for more information.
+
