@@ -35,5 +35,5 @@ The `money` table contains three columns: `id`, `old`, and `new`. The `id` colum
 
 ## License
 
-This project is licensed under the GNU License - see the [LICENSE.md] file for details.
+This project is licensed under the GNU License - see the LICENSE.md file in the beggining of the repository.
 

@@ -29,5 +29,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This repository is licensed under the GNU License. See the `LICENSE` file for more information.
-
+This project is licensed under the GNU License - see the LICENSE.md file in the beggining of the repository.
